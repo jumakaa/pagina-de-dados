@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:wght@400;700&display=swap');
+
+:root{
+    --primary-color: #f5c3ed;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open sans', sans-serif;
+    background-color: var(--primary-color);
+    font-size: 19px;
+}
+
+.container{
+    background: #f59ef0;
+    max-width: 640px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+p{
+    margin: 20px 0 20px 0;
+}
+
+form input, form label, form button{
+    display: block;
+    width: 100%;
+    margin-bottom:10px;
+}
+
+form input{
+    font-size: 30px;
+    padding: 0 5px;
+    height: 40px;
+    border: solid 1px;
+}
+
+button{
+    height: 40px;
+    margin-top: 30px;
+    background: rgb(224, 62, 170);
+    border: solid 1px;
+}
+
+button:focus{
+    background: rgb(201, 21, 141);
+}
